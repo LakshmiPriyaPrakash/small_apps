@@ -1,11 +1,11 @@
 import React from "react";
 import './App.css';
-import SquareComponent from './SquareComponent/SquareComponent';
+import Board from "./Board/Board";
 
 function App() {
   return (
     <div className="App">
-      <SquareComponent value={'X'}/>
+      <Board/>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from 'react';
-import './SquareComponent.css';
+import './Square.css';
 
-function SquareComponent({ value }) {
+function Square({ value }) {
 
 
     return (
@@ -13,4 +13,4 @@ function SquareComponent({ value }) {
 
 
 
-export default SquareComponent;
+export default Square;
